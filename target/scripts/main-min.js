@@ -1,0 +1,2 @@
+$("#spinner").click(function(e){e.preventDefault(),$(".filter, .wrap__popup, .spinner").addClass("--active")}),$("#printer").click(function(e){e.preventDefault(),$(".filter, .wrap__popup, .printer").addClass("--active")}),$("#filter").click(function(e){e.preventDefault(),$(".filter, .wrap__popup, .spinner, .printer").removeClass("--active")});
+//# sourceMappingURL=./main-min.js.map

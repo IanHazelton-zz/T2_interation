@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../src/scripts/main.js"],"names":["$","click","e","preventDefault","addClass","removeClass"],"mappings":"AACAA,EAAE,YAAYC,MAAM,SAASC,GACzBA,EAAEC,iBACFH,EAAE,mCAAmCI,SAAS,cAIlDJ,EAAE,YAAYC,MAAM,SAASC,GACzBA,EAAEC,iBACFH,EAAE,mCAAmCI,SAAS,cAKlDJ,EAAE,WAAWC,MAAM,SAASC,GACxBA,EAAEC,iBACFH,EAAE,6CAA6CK,YAAY","file":"main-min.js"}
