@@ -16,6 +16,38 @@
 		"oAP": "\/index.html",
 		"oF": 0
 		},
+	"\/inspiration\/1ABl.gif": {
+		"ft": 4194304,
+		"iS": 362868,
+		"oA": 0,
+		"oAP": "\/inspiration\/1ABl.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/inspiration\/barcode-scan-line-animation-in-pure-css.gif": {
+		"ft": 4194304,
+		"iS": 35263,
+		"oA": 0,
+		"oAP": "\/inspiration\/barcode-scan-line-animation-in-pure-css.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/inspiration\/barcode_scanner_md_wm.gif": {
+		"ft": 4194304,
+		"iS": 294773,
+		"oA": 0,
+		"oAP": "\/inspiration\/barcode_scanner_md_wm.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/inspiration\/pull_down_to_print.gif": {
+		"ft": 4194304,
+		"iS": 507577,
+		"oA": 0,
+		"oAP": "\/inspiration\/pull_down_to_print.gif",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/README.md": {
 		"cB": 0,
 		"cS": 0,
@@ -43,6 +75,58 @@
 		"oF": 2,
 		"sC": 1,
 		"tS": 0
+		},
+	"\/src\/scss\/_anim-barcode.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/src\/scss\/_anim-barcode.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/src\/scss\/_anim-printer.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/src\/scss\/_anim-printer.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/src\/scss\/_anim-spinner.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/src\/scss\/_anim-spinner.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/src\/scss\/_anim-spinnerSuccess.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/src\/scss\/_anim-spinnerSuccess.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
 		},
 	"\/src\/scss\/_colours.scss": {
 		"aP": 0,

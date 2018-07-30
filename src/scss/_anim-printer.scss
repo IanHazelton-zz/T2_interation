@@ -1,0 +1,47 @@
+//printer
+@keyframes paper1 {
+    0% {
+          transform: translateY(0px);
+      }
+    100% {
+          transform: translateY(42px);
+    }
+  }
+  
+  @keyframes paper2 {
+    0% {
+          transform: translateY(0px);
+      }
+    100% {
+          transform: translateY(42px);
+      }
+  }
+
+.printer {
+    opacity: 0;
+    // transition: all 400ms;
+    transform: scale(2);
+    position: absolute;
+    &.--active {
+      opacity: 1;
+      .printerPaper1 {
+        animation: paper1 4s linear infinite;
+      }
+      .printerPaper2 {
+        animation: paper2 4s linear infinite;
+        animation-delay: 2s;
+      }
+    }
+  }
+  
+    
+ .printerLight {
+    opacity: 1;
+    animation: flicker 1s infinite;
+ } 
+
+ @keyframes flicker {
+  50% {
+    opacity: 0;
+  }
+}
