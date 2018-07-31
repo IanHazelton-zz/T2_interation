@@ -7,9 +7,11 @@ $('#spinner').click(function(e){
 //add success spinner
 $('#spinnerSuccess').click(function(e){
   e.preventDefault();
+  $('#js-resultSpinner').removeClass('--spinner-complete');
   $('.filter, .wrap__popup, .resultSpinner__wrap').addClass('--active');
   $('#js-progress-bar').addClass('--complete');
-  setTimeout(function(){$('#js-success-tick, #js-success-ring').addClass('--complete');},2000);
+  setTimeout(function(){$('#js-success-tick, #js-success-ring').addClass('--complete');},1700);
+  setTimeout(function(){$('#js-resultSpinner').addClass('--spinner-complete');},1800);
 });
 
   
@@ -22,14 +24,15 @@ $('#printer').click(function(e){
 //add barcode scanner
 $('#barcode').click(function(e){
   e.preventDefault();
-  $('.filter, .wrap__popup, .wrap__scanner').addClass('--active');
+  $('.filter, .wrap__popup, .barcode').addClass('--active');
 }); 
 
 ////////////////////////////////////////////////////////////////////////  
 //Remove all
 $('#filter').click(function(e){
     e.preventDefault();
-    $('.filter, .wrap__popup, .spinner, .printer, .wrap__scanner, .resultSpinner__wrap').removeClass('--active');
+    $('.filter, .wrap__popup, .spinner, .printer, .barcode, .resultSpinner__wrap').removeClass('--active');
     $('.notify__progress-bar, .success-tick, .success-ring').removeClass('--complete');
+
   });
 
