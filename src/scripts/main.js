@@ -29,6 +29,7 @@ $('#barcode').click(function(e){
 //Remove all
 $('#filter').click(function(e){
     e.preventDefault();
-    $('.filter, .wrap__popup, .spinner, .printer, .wrap__scanner, .spinnerSuccess').removeClass('--active');
+    $('.filter, .wrap__popup, .spinner, .printer, .wrap__scanner, .resultSpinner__wrap').removeClass('--active');
+    $('.notify__progress-bar, .success-tick, .success-ring').removeClass('--complete');
   });
 

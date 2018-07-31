@@ -66,6 +66,16 @@
 		"rFN": 0,
 		"uCM": 0
 		},
+	"\/src\/img\/SVG\/barcode.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "\/target\/img\/barcode.svg",
+		"oF": 3,
+		"opt": 1,
+		"plM": 2202781343711,
+		"prP": 1
+		},
 	"\/src\/scripts\/main.js": {
 		"ft": 64,
 		"ma": 1,
@@ -124,6 +134,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/src\/scss\/_anim-spinnerSuccess.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/src\/scss\/_buttons.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/src\/scss\/_buttons.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -261,6 +284,16 @@
 		"oA": 0,
 		"oAP": "\/target\/css\/start.css.map",
 		"oF": 0
+		},
+	"\/target\/img\/barcode.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/target\/img\/barcode.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/target\/scripts\/main-min.js": {
 		"ft": 64,
