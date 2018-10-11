@@ -1,0 +1,14 @@
+.wrap__bigScreen {
+	display: none;
+	@include breakpoint(md) {
+		display: block;
+	  }
+}
+
+.big-screen__img {
+	max-height: 100vh;
+	max-width: 100vw;
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+}

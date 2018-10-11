@@ -1,0 +1,94 @@
+.wrap__remote {
+	display: block;
+	justify-content: center;
+	max-height: 100vh;
+	overflow-y: hidden;
+	margin-left: 29px;
+	@include breakpoint(md) {
+		display: none;
+	  }
+}
+
+.remote {
+	background-image: url('../img/remote.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	position: absolute;
+	top: 0;
+	left: 4px;
+	height: 760px;
+	max-width: 375px;
+	width: 100%;
+}
+
+.button {
+	position: absolute;
+	background-color: rgba( $button-marker, .0 );
+	height: 50px; 
+	width: 50px;
+	&__test {
+		background-color: rgba( $button-test, .0 );
+	}
+	&__user {
+		left: 89px;
+		top: 76px;
+	}
+	&__src {
+		left: 252px;
+		top: 193px;
+		display: none;
+	}
+	&__up {
+		left: 165px;
+		top: 208px;
+	}
+	&__right {
+		left: 230px;
+		top: 273px;
+	}
+	&__down {
+		left: 165px;
+		top: 337px;
+	}
+	&__left {
+		left: 101px;
+		top: 273px;
+	}
+	&__ok {
+		left: 165px;
+		top: 273px;
+	}
+	&__return {
+		left: 76px;
+		top: 364px;
+	}
+	&__home {
+		left: 165px;
+		top: 400px;
+	}
+	&__mic {
+		left: 253px;
+		top: 363px;	
+	}
+	&__info {
+		left: 78px;
+		top: 185px;
+	}
+	&__apps {
+		left: 165px;
+		top: 152px;
+	}
+	&__guide {
+		left: 251px;
+		top: 185px;
+	}
+	&__prg-up {
+		left: 243px;
+		top: 472px;
+	}
+	&__prg-down {
+		left: 243px;
+		top: 541px;
+	}
+
+}
