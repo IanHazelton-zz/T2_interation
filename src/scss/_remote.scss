@@ -23,11 +23,11 @@
 
 .button {
 	position: absolute;
-	background-color: rgba( $button-marker, .0 );
+	//background-color: rgba( $button-marker, .7 );
 	height: 50px; 
 	width: 50px;
 	&__test {
-		background-color: rgba( $button-test, .0 );
+		//background-color: rgba( $button-test, .7 );
 	}
 	&__user {
 		left: 89px;
